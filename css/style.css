@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*.container * {
+    border: 1px solid red;
+}*/
+
+.container::after, .plan::after, nav::after, section::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+span {
+    color: rgb(83, 198, 183);
+    font-weight: 700;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 5px;
+}
+
+
+.logo {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.logo p {
+	padding-left: 15px;
+}
+
+
+header > div.container {
+	text-transform: uppercase;
+}
+
+
+nav {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+
+/*section*/
+
+.slider {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 52%, rgba(248,248,248,1) 55%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 59%, rgba(237,237,237,1) 60%);
+background: -webkit-gradient(left top, left bottom, color-stop(52%, rgba(255,255,255,1)), color-stop(55%, rgba(248,248,248,1)), color-stop(56%, rgba(246,246,246,1)), color-stop(59%, rgba(237,237,237,1)), color-stop(60%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 52%, rgba(248,248,248,1) 55%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 59%, rgba(237,237,237,1) 60%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 52%, rgba(248,248,248,1) 55%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 59%, rgba(237,237,237,1) 60%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 52%, rgba(248,248,248,1) 55%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 59%, rgba(237,237,237,1) 60%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 52%, rgba(248,248,248,1) 55%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 59%, rgba(237,237,237,1) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+height: 500px;
+}
+
+section.slider > div.container {
+	padding-top: 100px;
+}
+
+
+h1 {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box1, .box2 {
+    width: 50%;
+    float: left;
+}
+
+
+.box2 p {
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+    width: 200px;
+    margin-top: 40px;
+    background-color: rgb(83, 198, 183);
+    margin-left: 29%;
+    border-radius: 5px;
+}
+
+.button p {
+    color: white;
+    text-transform: uppercase;
+}
+.button a {
+	padding: 8% 3% 8% 3%;
+}
+
+/*section2*/
+section > div.container {
+	padding-top: 15px;
+}
+
+img {
+    width: 100%;
+    height: 90%;
+}
+
+.box3, .box4, .box5 {
+    width: 30%;
+    float: left;
+}
+
+.box5 {
+	float: right;
+}
+
+.box4 {
+	margin-left: 45px;
+    margin-right: 25px;
+}
+
+.box5, .box6, .box8 {
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.box5 p, h2 {
+    color: black;
+    padding: 10px 10px 0 10px;
+}
+.box5 p {
+	padding-bottom: 10px;
+	color: grey
+	font-size: 13px;
+}
+
+.box3, .box4 {
+	position: relative;
+}
+
+.picktureFrontground {
+	background-color: rgba(255,255,255,0.6);
+	color: rgb(0,0,0);
+	position: absolute;
+	padding: 10px 168px 10px 10px;
+    bottom: 15px;
+}
+
+.line {
+	background-color: rgb(83, 198, 183);
+	width: 50%;
+	height: 8px;
+	padding-right: 110px; 
+}
+
+.box5 div.line {
+	width: 70%;
+	margin-left: 10px;
+}
+
+/*Section3*/
+
+.row {
+	width: 100%;
+	height: 500px;
+}
+.row .line {
+	width: 30%;
+}
+
+.box6, .box7, .box8 {
+	width: 30%;
+	height: 400px;
+	float: left;
+	color: grey;
+	text-align: center;
+	padding: 50px 5px 50px 5px;
+	margin-top: 50px;
+}
+.box8 {
+	float: right;
+}
+
+.box7 {
+	background-color: rgb(83, 198, 183);
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.box6 h3 {
+	color: rgb(83, 198, 183);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.box7 h3 {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.box7 #roundBox {
+	color: rgb(83, 198, 183);
+}
+
+.box8 h3 {
+	color: rgb(83, 198, 183);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#roundBox{
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 50%;
+	text-align: center;
+	margin: 20px 10px 20px 95px;
+	background-color: white;
+}
+
+#roundBox p:first-child {
+	padding: 25px 0px 0px 15px;
+	font-size: 25px;
+}
+#roundBox p:last-child {
+	font-size: 10px;
+}
+
+sup {
+	font-size: 15px;
+}
+
+
+.plan {
+	width: 100%;
+	padding:0;
+}
+
+.box7 nav {
+	padding-right: 0;
+	background-color: white;
+	height: 125px;
+}
+.box8 nav {
+	padding-right: 0;
+}
+.box9 nav {
+	padding-right: 0;
+}
+
+.plan ul{
+	width: 100%;
+	height: 165px;
+    padding: 0;
+    clear: both;
+}
+
+.plan li {
+	width: 100%;
+    padding: 10px 15px;
+    clear: both;
+}
+
+.plan li:nth-child(odd) {
+	background-color: rgba(220,220,220, 0.5);
+}
+
+
+
