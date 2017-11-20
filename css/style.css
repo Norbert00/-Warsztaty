@@ -1,3 +1,4 @@
+        /*Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@ a {
     padding: 10px;
 }
 
-/*header*/
+        /*header*/
 
 header {
     width: 100%;
@@ -56,10 +57,8 @@ header:first-child .container {
 .container {
     width: 960px;
     margin: 0 auto;
-    /*padding-top: 5px;*/
     padding: 20px 0 50px 0;
 }
-
 
 .logo {
     width: 50%;
@@ -70,7 +69,6 @@ header:first-child .container {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 
 nav {
     width: 50%;
@@ -86,13 +84,14 @@ ul li {
 }
 
 
-/*section*/
+        /*section*/
 
 .green-line {
     width: 30%;
     height: 10px;
     background-color: rgb(83, 198, 183);
 }
+
 h1 {
     padding: 20px 0 0 0 ;
     text-align: center;
@@ -107,7 +106,6 @@ h1 span {
     width: 50%;
     float: left;
 }
-
 
 .box2 p {
     padding: 15px;
@@ -129,7 +127,8 @@ h1 span {
     text-transform: uppercase;
 }
 
-/*section2*/
+        /*section2*/
+
 h2 {
     font-size: 18px;
 }
@@ -189,7 +188,7 @@ p, h2, h3 {
     margin: 0 0 0 10px;
 }
 
-/*section 3*/
+        /*section 3*/
 h3 {
     font-size: 26px;
     text-transform: uppercase;
@@ -272,7 +271,7 @@ h3 {
     float: none;
 }
 
-/*box 6*/
+        /*box 6*/
 .box6 ul {
     padding-bottom: 110px;
 }
@@ -290,9 +289,8 @@ h3 {
 .box6 li:nth-child(even), .box8 li:nth-child(even) {
     background-color: rgba(209,209,209, 0.3);
 }
-/*end box6*/
 
-/*box 7*/
+        /*box 7*/
 .box7 {
     border: 1px solid rgb(83, 198, 183);
     margin-left: 39px;
@@ -332,8 +330,6 @@ h3 {
     color: rgb(83, 198, 183);
 }
 
-/*end box 7*/
-
 .row .button {
     margin: 0 auto;
     height: 40px;
@@ -341,11 +337,8 @@ h3 {
     text-align: center;
 }
 
-
-
-/*section 3 contact*/
-
-/*section 3 left side*/
+    /*section 3 contact*/
+    /*section 3 left side*/
 h4 {
     font-size: 26px;
     text-transform: uppercase;
@@ -365,6 +358,7 @@ input {
     padding: 13px;
     border:1px solid rgb(83, 198, 183);
     font-size: 20px;
+    outline: 0 none;
 }
 
 textarea {
@@ -374,6 +368,7 @@ textarea {
     font-size: 20px;
     padding: 13px;
     border:1px solid rgb(83, 198, 183);
+    outline: 0 none;
 }
 
 .contact .green-line {
@@ -385,7 +380,7 @@ input[name*="message"] {
     padding-top: 0;
 }
 
-/*section 3 right side*/
+        /*section 3 right side*/
 .send {
     float: right;
     width: 40%;
@@ -413,8 +408,7 @@ input[name*="message"] {
     border: 1px solid rgb(83, 198, 183);
 }
 
-
-/*footer*/
+        /*footer*/
 .cp-rights {
     width: 60%;
     float: left;
@@ -442,6 +436,12 @@ footer .container {
     color: rgb(128, 128, 128);
 }
 
+footer .logo span {
+    color: rgb(128, 128, 128);
+    font-weight: 900;
+}
+
+
 footer .logo {
     padding-left: 45px;
 }
@@ -452,5 +452,5 @@ li a {
 
 .logo p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
